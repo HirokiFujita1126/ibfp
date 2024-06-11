@@ -1,0 +1,412 @@
+# Practice items
+p: It was clear that the little boy wanted a toy.
+pq: Did the little boy want a cake?
+po: Yes , No
+
+p: Bill told the story about himself during the party.
+pq: Did Bill tell about himself?
+po: Yes , No
+
+p: Because it was late at night, Bob didn’t allow his daughter to go out.
+pq: Was it late at night?
+po: Yes , No
+
+p: The lawyer had a customer today, but he didn’t show up.
+pq: Did the lawyer have a customer yesterday?
+po: Yes , No
+
+# Experimental items
+s: When the two actors met the director in the studio was talking about the film.
+s: When the two actors met, the director in the studio was talking about the film.
+sq: Did the two actors meet the director?
+sq: Did the two actors meet the director?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: After the man woke up the woman in the bedroom started watching the news.
+s: After the man woke up, the woman in the bedroom started watching the news.
+sq: Did the man wake up the woman?
+sq: Did the man wake up the woman?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: When the two children hugged their mother at the station smiled very happily.
+s: When the two children hugged, their mother at the station smiled very happily.
+sq: Did the two children hug their mother?
+sq: Did the two children hug their mother?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: After the lawyer calmed down the man in the office took some time to rest.
+s: After the lawyer calmed down, the man in the office took some time to rest.
+sq: Did the lawyer calm down the man?
+sq: Did the lawyer calm down the man?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: After the lady woke up the child in the room ate a sandwich very quickly.
+s: After the lady woke up, the child in the room ate a sandwich very quickly.
+sq: Did the lady wake up the child?
+sq: Did the lady wake up the child?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: Before the woman dressed the boy in the living room was reading the book.
+s: Before the woman dressed, the boy in the living room was reading the book.
+sq: Did the woman dress the boy?
+sq: Did the woman dress the boy?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: When the parents hugged the child in the small park was playing with friends.
+s: When the parents hugged, the child in the small park was playing with friends.
+sq: Did the parents hug the child?
+sq: Did the parents hug the child?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: Before the lady washed the little boy in the house was watching the TV very quietly.
+s: Before the lady washed, the little boy in the house was watching the TV very quietly.
+sq: Did the lady wash the little boy?
+sq: Did the lady wash the little boy?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: When the parents kissed their young daughter in the kitchen was eating some chocolate.
+s: When the parents kissed, their young daughter in the kitchen was eating some chocolate.
+sq: Did the parents kiss their young daughter?
+sq: Did the parents kiss their young daughter?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: When the woman woke up the child in the bedroom was playing the video game.
+s: When the woman woke up, the child in the bedroom was playing the video game.
+sq: Did the woman wake up the child?
+sq: Did the woman wake up the child?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: Before the parents dressed their young son in the bedroom was sleeping on the sofa.
+s: Before the parents dressed, their young son in the bedroom was sleeping on the sofa.
+sq: Did the parents dress their young son?
+sq: Did the parents dress their young son?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: After the nurse washed the little child in the hospital sat on the chair.
+s: After the nurse washed, the little child in the hospital sat on the chair.
+sq: Did the nurse wash the little child?
+sq: Did the nurse wash the little child?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: After the nurse woke up the patient in the hospital spoke to the doctor.
+s: After the nurse woke up, the patient in the hospital spoke to the doctor.
+sq: Did the nurse wake up the patient?
+sq: Did the nurse wake up the patient?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: After the girl calmed down the boy in the classroom started to explain the maths problem.
+s: After the girl calmed down, the boy in the classroom started to explain the maths problem.
+sq: Did the girl clam down the boy?
+sq: Did the girl clam down the boy?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: After the doctor woke up the nurse in the hospital started working very hard.
+s: After the doctor woke up, the nurse in the hospital started working very hard.
+sq: Did the doctor wake up the nurse?
+sq: Did the doctor wake up the nurse?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+s: After the researcher woke up the assistant in the office decided to go back home.
+s: After the researcher woke up, the assistant in the office decided to go back home.
+sq: Did the researcher wake up the assistant?
+sq: Did the researcher wake up the assistant?
+so: Yes , No
+so: Yes , No
+sco: No
+sco: No
+
+# Filler items
+f: The radio that was near the window in the kitchen recently broke.
+fq: Did the radio break?
+fo: Yes , No
+fco: Yes
+
+f: The towel that was near the cloth in the bathroom fell to the floor.
+fq: Did the cloth fall to the floor?
+fo: Yes , No
+fco: No
+
+f: The statue that was near the tower was quite popular.
+fq: Was the statue quite popular?
+fo: Yes , No
+fco: Yes
+
+f: The businessman who the manager talked about worked really hard.
+fq: Did the businessman talk about the manager?
+fo: Yes , No
+fco: No
+
+f: The officer who the suspect was watching was near the building.
+fq: Was the officer near the building?
+fo: Yes , No
+fco: Yes
+
+f: The salesman talking to the customer looked tired.
+fq: Did the customer look tired?
+fo: Yes , No
+fco: No
+
+f: The zookeeper who petted the rabbit took some time to rest.
+fq: Did the zookeeper pet the rabbit?
+fo: Yes , No
+fco: Yes
+
+f: The butler who was driving in town noticed that the road ahead was under construction.
+fq: Was the butler walking?
+fo: Yes , No
+fco: No
+
+f: Mary drank some hot tea after John dressed in the bedroom.
+fq: Was the tea hot?
+fo: Yes , No
+fco: Yes
+
+f: Maria worked really hard while Tom had lunch in the cafe.
+fq: Did Tom work hard?
+fo: Yes , No
+fco: No
+
+f: The door was being repaired while the boy was happily playing with a dog.
+fq: Did the boy look happy?
+fo: Yes , No
+fco: Yes
+
+f: The girl caught a butterfly in the garden while Eric cooked lunch.
+fq: Did the girl catch a frog?
+fo: Yes , No
+fco: No
+
+f: Rachel recently went to the mall because her sister wanted a nice hat.
+fq: Did Rachel have a sister?
+fo: Yes , No
+fco: Yes
+
+f: The student was studying very hard because he had a difficult exam.
+fq: Was the exam easy?
+fo: Yes , No
+fco: No
+
+f: The director said his wife had recently won an award and he was very happy.
+fq: Was the director happy?
+fo: Yes , No
+fco: Yes
+
+f: The maths problem at school was far too difficult for anyone to solve.
+fq: Was the maths problem easy to solve?
+fo: Yes , No
+fco: No
+
+f: Sarah claimed that the teacher spoke so fast that she couldn’t understand what he was saying.
+fq: Did the teacher speak fast?
+fo: Yes , No
+fco: Yes
+
+f: John was late because he helped an old lady this morning.
+fq: Did the old lady help the John?
+fo: Yes , No
+fco: No
+
+f: Sophie found the necklace and ring she was looking for last week.
+fq: Did Sophie find the ring?
+fo: Yes , No
+fco: Yes
+
+f: Tom saw the video game and asked his grandfather to buy it for his birthday.
+fq: Did Tom want a board game?
+fo: Yes , No
+fco: No
+
+f: The coin was picked up by the little boy in the garden last night.
+fq: Was the boy little?
+fo: Yes , No
+fco: Yes
+
+f: The runner was very thirsty but didn’t buy a bottle of water.
+fq: Did the runner buy the bottle of water?
+fo: Yes , No
+fco: No
+
+f: It was clear that the musician looked irritated after arguing with the pianist.
+fq: Did the musician look irritated?
+fo: Yes , No
+fco: Yes
+
+f: The presenter spoke English very fluently, even though it wasn't his first language.
+fq: Is English the presenter’s first language?
+fo: Yes , No
+fco: No 
+
+f: The blueprints for the new building were developed very quickly, but the workmen worked very slowly.
+fq: Did the workmen work very slowly?
+fo: Yes , No
+fco: Yes
+
+f: The hunter trapped the deer, but released it after a moment's thought.
+fq: Did the hunter shoot the deer?
+fo: Yes , No
+fco: No
+
+f: The helicopter was flown very fast by the pilot to show off to the onlookers.
+fq: Did the pilot fly the helicopter?
+fo: Yes , No
+fco: Yes
+
+f: The flowers in the garden all started to bloom beautifully this morning.
+fq: Did all the flowers die?
+fo: Yes , No
+fco: No
+
+f: The salesperson explained to the customer why he recommended the headphones.
+fq: Did the salesperson recommend the headphones?
+fo: Yes , No
+fco: Yes
+
+f: The lady, followed by a stranger, ran away and called the police.
+fq: Did the police follow the lady?
+fo: Yes , No
+fco: No
+
+f: The girl hoped that her mother would soon recover from a cold.
+fq: Was the girl’s mother sick?
+fo: Yes , No
+fco: Yes
+
+f: Mary remembered that Amy had gone to the restaurant with her boyfriend last night.
+fq: Did Amy go to the restaurant with Mary last night?
+fo: Yes , No
+fco: No
+
+f: The man promised his wife that he would buy her the watch next week.
+fq: Did the man make a promise?
+fo: Yes , No
+fco: Yes
+
+f: The children were on their way to the beach but turned back before they got there.
+fq: Did the children arrive at the beach?
+fo: Yes , No
+fco: No
+
+f: The children ate their dinner quietly while their grandfather turned off the television.
+fq: Did the children have dinner?
+fo: Yes , No
+fco: Yes
+
+f: The meeting was in the morning, so the businessman had to leave early.
+fq: Was the meeting at noon?
+fo: Yes , No
+fco: No
+
+f: The footballer practised before going to the restaurant and enjoying the food.
+fq: Did the footballer go to the restaurant?
+fo: Yes , No
+fco: Yes
+
+f: Paul went into the kitchen to make himself a cup of coffee.
+fq: Did Paul go out for coffee?
+fo: Yes , No
+fco: No
+
+f: The client who didn't like the design went to another designer.
+fq: Did the client go to another designer?
+fo: Yes , No
+fco: Yes
+
+f: The wallet that Mike found last night was recently lost by the boy.
+fq: Did Mike recently lose the wallet?
+fo: Yes , No
+fco: No
+
+f: The suitcase was very heavy, so the neighbour helped the girl's sister.
+fq: Did the neighbour help?
+fo: Yes , No
+fco: Yes
+
+f: The gardener saw the gentleman's grandparents in the park, but didn't greet them.
+fq: Did the gardener greet the grandparents?
+fo: Yes , No
+fco: No
+
+f: The bride's daughter looked very happy during the wedding.
+fq: Did the bride's daughter look very happy?
+fo: Yes , No
+fco: Yes
+
+f: John fired a shotgun at the bear, but the bullets didn't hit it.
+fq: Did John shoot the bear dead?
+fo: Yes , No
+fco: No
+
+f: The floor was swept with a broom by the housemaid before she started cooking lunch.
+fq: Did the housemaid use a broom?
+fo: Yes , No
+fco: Yes
+
+f: The magic trick was very clever and the magician looked proud as everyone applauded.
+fq: Did the magician applaud everyone?
+fo: Yes , No
+fco: No
+
+f: The clothes were washed very quickly by Alice, but she still managed to clean them very well.
+fq: Did Alice wash the clothes?
+fo: Yes , No
+fco: Yes
+
+f: The director needed to prepare for the shoot, but didn't want to.
+fq: Did the director want to prepare for the shoot?
+fo: Yes , No
+fco: No
+
+f: The maid cleaned the bathroom while the butler rested on the sofa.
+fq: Did the butler clean the bathroom?
+fo: Yes , No
+fco: No
+
+f: It was clear that in a few years Linda would be taller than her mother.
+fq: Was Linda still shorter than her mother?
+fo: Yes , No
+fco: Yes
