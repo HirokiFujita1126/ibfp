@@ -1,5 +1,5 @@
 Package: ibfp
-Title: What the Package Does (One Line, Title Case)
+Title: ibfp is an R package that automates the formatting of sentences to create a variety of tasks based on the Ibex software.
 Version: 0.0.0.9000
 Authors@R: 
     person("Hiroki", "Fujita", , "hiroki.fujita@uni-potsdam.de", role = c("aut", "cre"),
