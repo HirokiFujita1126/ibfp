@@ -1,4 +1,4 @@
-if (!library(dplyr)){install.packages("dplyr");library(dplyr)}
+if (!require(dplyr)){install.packages("dplyr");require(dplyr)}
 all_na <- function(x) any(!is.na(x))
 quote_string <- function(s) paste0('"', s, '"')
 quote_string2 <- function(s) paste0('"', s, '",')
