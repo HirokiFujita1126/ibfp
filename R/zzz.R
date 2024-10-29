@@ -8,5 +8,4 @@
   if (!requireNamespace("dplyr", quietly = TRUE)) {
     stop("Package 'dplyr' needed but not installed.")
   }
-  library(dplyr, character.only = TRUE)
 }
