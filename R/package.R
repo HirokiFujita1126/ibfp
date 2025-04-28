@@ -826,13 +826,45 @@ SPRExp <- function(
   
   qoption <- subset(Material, c1 == "so:")[-1]
   
-  qoption <- data.frame(lapply(qoption, function(x) {
-    x <- trimws(x)
-    x[!is.na(x) & x != "" & x != ","] <- paste0('"', x[!is.na(x) & x != "" & x != ","], '"')
-    return(x)
-  }))
+  combined_rows <- apply(qoption, 1, paste, collapse = " ")
+  split_values <- strsplit(combined_rows, ",")
+  trimmed_values <- lapply(split_values, function(x) trimws(x))
+  quoted_values <- lapply(trimmed_values, function(x) {
+    ifelse(x != "", paste0('"', x, '"'), x)
+  })
   
-  qoption <- data.frame(apply(qoption, 2, function(col) gsub("_", " ", col)))
+  new_qoption <- data.frame(matrix("", nrow = nrow(qoption), ncol = ncol(qoption)))
+  colnames(new_qoption) <- colnames(qoption)
+  
+  for (i in 1:nrow(qoption)) {
+    # If there's only one value after splitting (no commas)
+    if (length(quoted_values[[i]]) == 1) {
+      new_qoption[i, 1] <- quoted_values[[i]]
+    } else {
+      # First value goes in column 1
+      new_qoption[i, 1] <- quoted_values[[i]][1]
+      
+      # Put comma in column 2 (assuming that's where commas were)
+      new_qoption[i, 2] <- ","
+      
+      # Remaining values go in the subsequent columns
+      for (j in 2:length(quoted_values[[i]])) {
+        if (j+1 <= ncol(new_qoption)) {
+          new_qoption[i, j+1] <- quoted_values[[i]][j]
+        }
+      }
+    }
+  }
+  
+  qoption <- new_qoption
+  
+  #qoption <- data.frame(lapply(qoption, function(x) {
+  #  x <- trimws(x)
+  #  x[!is.na(x) & x != "" & x != ","] <- paste0('"', x[!is.na(x) & x != "" & x != ","], '"')
+  #  return(x)
+  #}))
+  
+  #qoption <- data.frame(apply(qoption, 2, function(col) gsub("_", " ", col)))
   
   for (i in 1:nrow(qoption)) {
     if (is.na(qoption[i, 1])) {
@@ -1179,6 +1211,3 @@ JudgementFiller <- function(
   write.table(fdat, "JudgementFiller.js", quote = FALSE, row.names = FALSE, col.names = FALSE)
   
 }
-
-
-
